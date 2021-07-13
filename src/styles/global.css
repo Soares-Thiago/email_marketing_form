@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root, .App {
+  height: 100%;
+}
+
+:root{
+  --white:#fff;
+  --background:#3B6492;
+  --background-button:#7BD4F6;
+  --box-content: #1f1f1f;
+  --blue: #1b3e4d;
+}
+
+body{
+  background-color: var(--background);
+  color:white;
+}
+
+body, input, button, textarea{
+  font: 400 1rem "Roboto", sans-serif;
+}
+
+button{
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}

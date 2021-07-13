@@ -1,0 +1,39 @@
+
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  align-self: center;
+  width: 50%;
+  background-color: var(--white);
+  color: var(--background);
+  padding: 10px;
+  
+}
+
+
+@media only screen and (max-width: 1228px) {
+  .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .content {
+    margin-top: 2rem;
+    width: 80%;
+    align-self: center;
+    background-color: var(--white);
+    color: var(--background);
+    padding: 10px;
+    
+  }
+
+}
